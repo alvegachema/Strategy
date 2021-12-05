@@ -68,6 +68,7 @@ public class Monster {
         return Objects.hash(getHp(), getXp(), getMaxHP(), getItems());
     }
 
+    //I made a change from the default "generate to string" option, the change was to delete a couple lines that were not necessary to get the correct output
     @Override
     public String toString() {
         return "= " + hp + "/" + maxHP;
